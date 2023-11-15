@@ -1,0 +1,19 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"
+/>
+
+<h3>Dan Pastusek's Blog | <a href="/">Home</a></h3>
+<hr />
+<h1>{{title}}</h1>
+<p class="date">Published
+  {{date}}
+  {{#if updated}}
+    <span
+      class="date"
+      style="margin-left: 10px; color: gray; font-style: italic;"
+    >Updated:
+      {{updated}}</span>
+  {{/if}}
+</p>
+{{{content}}}

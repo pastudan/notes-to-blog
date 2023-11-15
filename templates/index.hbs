@@ -1,0 +1,34 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"
+/>
+
+<div class="intro">
+  <img
+    src="https://i.imgur.com/AuG854G.jpg"
+    alt="Dan Pastusek - Profile Photo"
+    style="border-radius: 4px; height: 180px; float: right; margin-right: 16px;"
+  />
+  <h1>Hello, I'm Dan Pastusek!</h1>
+  <p>I build things. Software and hardware. Mostly on the web.</p>
+  <p>I'm on GitHub as <a href="https://github.com/pastudan">@pastudan</a></p>
+  <p>Some recent projects:</p>
+  <ul>
+    <li><a href="https://getpibox.com">Pibox</a>
+      - A Raspberry Pi based NAS</li>
+    <li><a href="https://kubesail.com">KubeSail</a>
+      - A self-hosting platform for Kubernetes clusters</li>
+  </ul>
+</div>
+
+<div class="profile-photo">
+  <h2>Blog Posts</h2>
+  <ul>{{#each yearPosts}}
+      <h3>{{year}}</h3>
+      {{#each posts}}
+        <li><a href="articles/{{slug}}.html">{{title}}</a></li>
+      {{/each}}
+    {{/each}}
+
+  </ul>
+</div>

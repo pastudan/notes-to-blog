@@ -1,0 +1,16 @@
+{
+  "name": "notes-to-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0",
+    "marked": "^10.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.15.0"
+  }
+}
