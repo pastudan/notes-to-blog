@@ -8,3 +8,4 @@ Goals for this project:
 - [x] Minimize user interaction (live deploys on every save)
 - [x] Work with common note apps (e.g. Obsidian, Notable, Joplin, etc)
 - [ ] Deploy images linked in markdown
+- [ ] Consider running daemon as an Obsidian plugin
